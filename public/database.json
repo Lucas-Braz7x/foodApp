@@ -1,0 +1,26 @@
+[
+  {
+    "id": "prato1",
+    "name": "Feijoada",
+    "description": "A feijoada carioca é conhecida por ingredientes como feijão preto e diversas partes do porco. O prato fica ainda mais gostoso acompanhado de couve refogada caprichada, farofinha feita na hora e arroz branco. Ah, e você vai se surpreender com como a laranja é capaz de dar um toque especial à feijoada!",
+    "price": 21.5
+  },
+  {
+    "id": "prato2",
+    "name": "Bolinho de bacalhau",
+    "description": "A massa do bolinho ainda conta com batata e cheiro-verde, que dão aquele toque na textura e no sabor do salgado. Tudo pode ficar ainda mais gostoso se você servir esse aperitivo acompanhado de algumas gotinhas de azeite!",
+    "price": 25.75
+  },
+  {
+    "id": "prato3",
+    "name": "Sardinha frita",
+    "description": "As sardinhas fritas são preparadas facilmente, e ficam ainda melhores quando servidas com algumas gotinhas de limão. Você vai se apaixonar!",
+    "price": 12.5
+  },
+  {
+    "id": "prato4",
+    "name": "Picadinho de carne",
+    "description": "or ser um prato de preparo rápido e fácil, o picadinho de carne bovina incrementa refeições de forma simples e saborosa. Acompanhado de cebola e legumes cozidos.",
+    "price": 18.0
+  }
+]
