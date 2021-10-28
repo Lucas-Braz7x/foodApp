@@ -8,7 +8,7 @@ export const Header = (props) => {
     <>
       <header className={style.header}>
         <h1>FoodApp</h1>
-        <CartButton />
+        <CartButton onClick={props.onShowCart} />
       </header>
       <div className={style.mainImage}>
         <img src={mealsImg} alt="Uma mesa de jantar cheia de comida" />

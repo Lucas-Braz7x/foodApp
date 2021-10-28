@@ -11,6 +11,7 @@ export const AvailableMeals = ({ mealsList }) => {
       <Card>
         <ul>
           {mealsList.map(meal => <MealsItem
+            id={meal.id}
             key={meal.id}
             name={meal.name}
             description={meal.description}

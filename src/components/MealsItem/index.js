@@ -1,4 +1,5 @@
 import React from 'react';
+import { MealsForm } from '../MealsForm';
 import style from './styles.module.scss';
 
 export const MealsItem = (props) => {
@@ -10,7 +11,9 @@ export const MealsItem = (props) => {
         <div className={style.description}>{props.description}</div>
         <div className={style.price}>{price}</div>
       </div>
-      <div></div>
+      <div>
+        <MealsForm id={props.id} />
+      </div>
     </li>
   )
 }

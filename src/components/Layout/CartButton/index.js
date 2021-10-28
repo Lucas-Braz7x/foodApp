@@ -4,7 +4,7 @@ import style from './styles.module.scss';
 
 export const CartButton = (props) => {
   return (
-    <button className={`${style.button} ${style.bump}`}>
+    <button className={`${style.button} ${style.bump}`} onClick={props.onClick}>
       <span className={style.icon}><CartIcon /></span>
       <span>Seu carrinho</span>
       <span className={style.badge}>3</span>
