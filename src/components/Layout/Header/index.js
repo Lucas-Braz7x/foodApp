@@ -1,0 +1,18 @@
+import React from 'react';
+import style from './styles.module.scss';
+import mealsImg from '../../../assets/meals-small.jpg';
+import { CartButton } from '../CartButton';
+
+export const Header = (props) => {
+  return (
+    <>
+      <header className={style.header}>
+        <h1>FoodApp</h1>
+        <CartButton />
+      </header>
+      <div className={style.mainImage}>
+        <img src={mealsImg} alt="Uma mesa de jantar cheia de comida" />
+      </div>
+    </>
+  );
+};
