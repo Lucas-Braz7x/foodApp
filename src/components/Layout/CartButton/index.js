@@ -33,6 +33,7 @@ export const CartButton = (props) => {
       <span>Seu carrinho</span>
       <span className={style.badge}>
         {cartCtx.items.reduce((curNumber, item) => {
+
           return curNumber + item.amount;
         }, 0)}
       </span>
