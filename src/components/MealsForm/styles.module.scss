@@ -13,11 +13,42 @@
     border-radius: 20px;
     
     padding: 0.25rem 2rem;    
+    animation: buttonRotation 3s infinite;
+  }
+
+  @keyframes buttonRotation {
+    0% {transform: scale(.8) rotateZ(0);}
+    5% {transform: scale(1) rotateZ(5deg);}
+    10% {transform: scale(1) rotateZ(-5deg);}
+    15% {transform: scale(1) rotateZ(5deg);}
+    20% {transform: scale(1) rotateZ(-5deg);}
+    25% {transform: scale(1) rotateZ(5deg);}
+    30% {transform: scale(1) rotateZ(-5deg);}
+    35% {transform: scale(1) rotateZ(5deg);}
+    40% {transform: scale(1) rotateZ(-5deg);}
+    45% {transform: scale(1) rotateZ(5deg);}
+    50% {transform: scale(1) rotateZ(-5deg);}
+    55% {transform: scale(1) rotateZ(5deg);}
+    60% {transform: scale(1) rotateZ(-5deg);}
+    65% {transform: scale(1) rotateZ(5deg);}
+    70% {transform: scale(1) rotateZ(-5deg);}
+    75% {transform: scale(1) rotateZ(5deg);}
+    80% {transform: scale(1) rotateZ(-5deg);}
+    85% {transform: scale(1) rotateZ(5deg);}
+    90% {transform: scale(1) rotateZ(-5deg);}
+    95% {transform: scale(1) rotateZ(5deg);}
+    100% {transform: scale(.8) rotateZ(0);}
   }
 
   button:hover,
   button:active{
     background-color: #641e03;
     border-color: #641e03;
+    animation: buttonRotationOut 2s infinite;
+    transform: scale(.9);
+  }
+
+  @keyframes buttonRotationOut {
+    0% {transform: scale(1) rotateZ(0);}
   }
 }

@@ -16,8 +16,21 @@
   padding: 0 10%;
   box-shadow: 5px 2px 30px rgba(0,0,0, 0.9);
   z-index: 10;
+
+  .title{
+    animation: initials 2s;
+    transition: color .5s;
+  }
+  &:hover{
+    color: #8a2b06
+  }
+  
 }
 
+@keyframes initials {
+  from {transform: scale(0);}
+  to{transform: scale(1);}
+}
 /* .header::after{
   content: '';
   position: absolute;
