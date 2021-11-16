@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './styles.module.scss';
-import 'animate.css';
 import mealsImg from '../../../assets/meals-small.jpg';
 import { CartButton } from '../CartButton';
 
