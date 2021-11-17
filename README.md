@@ -14,5 +14,4 @@
   - Baixe ou clone este repositório
   - Rode o comando: `npm start`
 
-# Link da aplicação:
-  - 
+# [Link da aplicação:](https://food-app-kmcys70yu-lucas-braz7x.vercel.app/)
